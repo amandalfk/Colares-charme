@@ -1,0 +1,126 @@
+/* Resetando margens e preenchimentos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(215, 77, 165);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #F8BBD0;
+    color: #F48FB1;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid #F06292; /* Linha de separação abaixo do cabeçalho */
+    position: relative; /* Para posicionar logo e menu */
+}
+
+header img {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 20px; /* Alinhamento da logo à esquerda */
+}
+
+header h1 {
+    color: #F06292;
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    margin: 20px 0;
+    position: absolute;
+    right: 20px; /* Alinhamento do menu à direita */
+    top: 20px; /* Alinhamento vertical com a logo */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #EC407A;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #FCE4EC;
+    color: #F5F5F5;
+    border-radius: 5px;
+}
+
+/* Estilo do conteúdo principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo dos produtos */
+.product {
+    margin: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #F8BBD0;
+    color: #F48FB1;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #F06292; /* Linha de separação acima do rodapé */
+    margin-top: 20px;
+}
+
+footer img {
+    width: 100px;
+    height: auto;
+}
+
+footer h1 {
+    color: #F06292;
+    margin: 10px 0;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+/* Estilo da tabela de contatos sem bordas visíveis */
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: none; /* Remove as bordas da tabela */
+}
+
+th {
+    background-color: #F06292;
+    color: #F5F5F5;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+}
